@@ -1,0 +1,25 @@
+//Autor: Gabriel Oliveira
+
+import javax.swing.JOptionPane;
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+        String nome = JOptionPane.showInputDialog("Bem-vindo ao Pet Shop!\n Digite o seu nome: ");
+      
+        String email = JOptionPane.showInputDialog("Digite o seu e-mail: ");
+      
+        String senha = JOptionPane.showInputDialog("Crie uma senha: ");
+
+        String confirmarsenha = JOptionPane.showInputDialog("Confirme sua senha: ");
+
+        String especie = JOptionPane.showInputDialog("Digite a espécie do seu pet (ex: cão, gato)");
+      
+        String nomePet = JOptionPane.showInputDialog("Digite o nome do pet: ");
+
+      JOptionPane.showMessageDialog(null,"Cadastro concluído com sucesso!");  
+      
+    }
+
+}
